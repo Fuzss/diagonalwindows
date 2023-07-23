@@ -6,7 +6,7 @@
   "refmap": "diagonalwindows.refmap.json",
   "plugin": "fuzs.diagonalwindows.mixin.ModMixinConfigPlugin",
   "mixins": [
-    "FenceBlockMixin",
+    "IronBarsBlockMixin",
     "WalkNodeEvaluatorMixin",
     "accessor.VoxelShapeAccessor"
   ],

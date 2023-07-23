@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog].
 
+## [v4.0.1-1.19.2] - 2023-07-23
+### Fixed
+- Fixed mixins being wrongly configured, resulting in diagonal connections not applying to glass panes and iron bars
+
 ## [v4.0.0-1.19.2] - 2023-07-20
 - Initial release
 
