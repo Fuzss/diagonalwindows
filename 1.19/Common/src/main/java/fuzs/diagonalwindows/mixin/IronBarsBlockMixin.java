@@ -26,10 +26,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@SuppressWarnings("unused")
 @Mixin(IronBarsBlock.class)
 abstract class IronBarsBlockMixin extends CrossCollisionBlock implements StarCollisionBlock {
-
     private boolean hasProperties;
     private Object2IntMap<BlockState> statePaletteMap;
 
@@ -136,10 +134,8 @@ abstract class IronBarsBlockMixin extends CrossCollisionBlock implements StarCol
     }
 
     @Inject(method = "<init>", at = @At("TAIL"))
-    public void init$tail(Properties properties, CallbackInfo callback) {
-
+    public void init(Properties properties, CallbackInfo callback) {
         if (this.hasProperties()) {
-
             this.registerDefaultState(this.addDefaultStates(this.defaultBlockState()));
         }
     }
