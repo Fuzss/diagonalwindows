@@ -1,6 +1,7 @@
 package fuzs.diagonalwindows;
 
-import fuzs.diagonalwindows.init.ModRegistry;
+import fuzs.diagonalblocks.api.v2.DiagonalBlockType;
+import fuzs.diagonalblocks.api.v2.DiagonalBlockTypes;
 import fuzs.puzzleslib.api.core.v1.ModConstructor;
 import net.minecraft.resources.ResourceLocation;
 import org.apache.logging.log4j.LogManager;
@@ -13,7 +14,7 @@ public class DiagonalWindows implements ModConstructor {
 
     @Override
     public void onConstructMod() {
-        ModRegistry.touch();
+        DiagonalBlockType.register(DiagonalBlockTypes.WINDOW);
     }
 
     public static ResourceLocation id(String path) {

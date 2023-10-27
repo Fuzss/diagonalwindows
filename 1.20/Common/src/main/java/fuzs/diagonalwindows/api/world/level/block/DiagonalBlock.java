@@ -6,6 +6,7 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 /**
  * mainly contains four new block states for diagonal directions
  */
+@Deprecated(forRemoval = true)
 public interface DiagonalBlock {
     BooleanProperty NORTH_EAST = BooleanProperty.create("north_east");
     BooleanProperty SOUTH_EAST = BooleanProperty.create("south_east");

@@ -16,6 +16,11 @@ dependencies {
     // Extensible Enums
 //    modApi(include(libs.extensibleenums.fabric.get()))
 
+    // Diagonal Blocks
+    modApi(include(libs.diagonalblocks.fabric.get())) {
+        exclude group: "fuzs.puzzleslib"
+    }
+
     // Quality of Life Mods
     versionCatalog.findLibrary("modmenu.fabric").ifPresent {
         modLocalRuntime(it)

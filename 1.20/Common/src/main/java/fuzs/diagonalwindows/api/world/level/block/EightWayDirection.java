@@ -1,6 +1,6 @@
 package fuzs.diagonalwindows.api.world.level.block;
 
-import fuzs.diagonalwindows.world.phys.shapes.VoxelUtils;
+import fuzs.diagonalblocks.world.phys.shapes.VoxelUtils;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Vec3i;
 import net.minecraft.util.StringRepresentable;
@@ -13,6 +13,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Deprecated(forRemoval = true)
 public enum EightWayDirection implements StringRepresentable {
     SOUTH(0, new Vec3i(0, 0, 1)),
     WEST(1, new Vec3i(-1, 0, 0)),
