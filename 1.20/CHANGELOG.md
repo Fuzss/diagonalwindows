@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog].
 
+## [v8.1.3-1.20.1] - 2023-11-29
+- Updated Diagonal Blocks to v8.0.3
+
 ## [v8.1.2-1.20.1] - 2023-10-29
 ### Changed
 - Updated to Puzzles Lib v8.1.5
