@@ -1,5 +1,6 @@
-package fuzs.diagonalwindows;
+package fuzs.diagonalwindows.fabric;
 
+import fuzs.diagonalwindows.DiagonalWindows;
 import fuzs.puzzleslib.api.core.v1.ModConstructor;
 import net.fabricmc.api.ModInitializer;
 
