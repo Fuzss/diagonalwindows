@@ -5,9 +5,7 @@ dependencies {
     modApi libs.puzzleslib.common
 
     // Diagonal Blocks
-    api(libs.diagonalblocks.common) {
-        transitive = false
-    }
+    modApi libs.diagonalblocks.common
 }
 
 tasks.withType(net.fabricmc.loom.task.AbstractRemapJarTask).configureEach {
