@@ -1,0 +1,70 @@
+{
+    "mod": {
+        "id": "diagonalwindows",
+        "group": "fuzs.diagonalwindows",
+        "name": "Diagonal Windows",
+        "version": "21.11.0",
+        "authors": [
+            "Fuzs",
+            "XFactHD"
+        ],
+        "description": "Now windows are connecting diagonally, too?! This is getting out of hand!",
+        "license": "MPL-2.0"
+    },
+    "dependencies": [
+        {
+            "name": "diagonalblocks",
+            "type": "embedded",
+            "platforms": [
+                "fabric",
+                "neoforge"
+            ]
+        },
+        {
+            "name": "fabricapi",
+            "type": "required",
+            "platforms": [
+                "fabric"
+            ]
+        },
+        {
+            "name": "forgeconfigapiport",
+            "type": "required",
+            "platforms": [
+                "fabric"
+            ]
+        },
+        {
+            "name": "puzzleslib",
+            "type": "required",
+            "platforms": [
+                "fabric",
+                "neoforge"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "name": "github",
+            "slug": "diagonalwindows"
+        },
+        {
+            "name": "curseforge",
+            "slug": "diagonal-windows",
+            "id": "891328"
+        },
+        {
+            "name": "modrinth",
+            "slug": "diagonal-windows",
+            "id": "oOi0CKes"
+        }
+    ],
+    "environments": {
+        "client": "required",
+        "server": "required"
+    },
+    "platforms": [
+        "fabric",
+        "neoforge"
+    ]
+}
